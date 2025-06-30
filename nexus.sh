@@ -74,3 +74,5 @@ fi
 
 task "Running Nexus CLI"
 curl https://cli.nexus.xyz/ | sh
+source ~/.bashrc
+nexus-network start --node-id <0x7d5db6629d7d327731fc27667640de08ed0a992e094c1245b2eee810540afb0e>
